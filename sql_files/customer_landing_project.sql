@@ -1,4 +1,4 @@
-CREATE EXTERNAL TABLE IF NOT EXISTS `salvig-db-udacity-sparklakes`.`cutsomer_landing_project` (
+CREATE EXTERNAL TABLE IF NOT EXISTS `salvig-db-udacity-sparklakes`.`customers_landing_project` (
   `customerName` string,
   `email` string,
   `phone` string,
@@ -7,6 +7,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS `salvig-db-udacity-sparklakes`.`cutsomer_lan
   `registrationDate` bigint,
   `lastUpdateDate` bigint,
   `shareWithResearchAsOfDate` bigint,
+  `shareWithPublicAsOfDate` bigint,
   `shareWithFriendsAsOfDate` bigint
 )
 ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe'
