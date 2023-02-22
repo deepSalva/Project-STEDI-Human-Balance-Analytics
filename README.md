@@ -28,7 +28,8 @@ access and resources in AWS.
 
 Prerequisites:
 * Python mid level
-* AWS environment: Create an account, IAM, s3 and CLI management basics. 
+* AWS environment: Create an account, IAM, s3 and CLI management basics.
+* Spark and DAG paradigm understanding.
 * Confortable with SQL basic operations. 
 * Basic concepts for Data Lake and Data Lakehouse
 * Athena and [Glue Studio](https://docs.aws.amazon.com/glue/latest/ug/tutorial-create-job.html) basics
