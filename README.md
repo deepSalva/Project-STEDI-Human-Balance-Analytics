@@ -1,8 +1,8 @@
 # Data Lakehouse for IoT Data Ingestion
-
+<div align="justify">
 This repository is a use case for developing a Data lakehouse in Amazon Web Service (AWS).  For that we are going to implement Spark jobs 
 in AWS Glue, that allows us to process data from multiple sources, categorize the data, and curate it to be queried in 
-the future for multiple purposes. 
+the future for multiple purposes.
 
 The use case is based on a company STEDI that analyze sensor data from the STEDI team to build a data lakehouse solution
 for sensor data that trains a machine learning model. The STEDI Team has been hard at work developing a hardware 
@@ -104,3 +104,5 @@ In this repository you can find:
 * Spark_Python scripts generated for the Glue Jobs
 * SQL statements for the tables creation in Athena
 * Images with table query examples
+
+</div>
